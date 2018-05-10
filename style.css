@@ -1,0 +1,177 @@
+body {
+	font-family: 'Roboto Condensed', sans-serif;
+
+}
+
+.flip-container {
+margin: 16px 87px 0;
+width: 200px;
+height:84.42px;
+background-color: rgba(26,60,116,1);
+}
+
+.digi_know {
+font-name: Roboto Condensed;
+color: #EA702A;
+font-weight: 100;
+line-height: 33px;
+line-width: 141px;
+text-align: center;
+margin: 0 auto;
+text-align: center;
+
+}
+
+.footer_img img {
+width: 61.38px;
+margin-left: 10px;
+}
+
+.index_links div h3 {
+    font-name: Roboto Condensed;
+    font-size: 18px;
+    color: #f2f2f2;
+    text-align: center;
+}
+
+footer {
+width: ;
+height:608px;
+padding: 40px 40px;
+margin: 10px auto;
+background-color: #DCD9DA;
+overflow: hidden;
+}
+
+
+.sign
+{
+
+width: calc(100% - 80px);
+height:390px;
+padding: 50px 50px;
+margin: 0 auto;
+background-color: #05ADED;
+}
+
+.sign .signup {
+
+	margin: 0 auto;
+	text-align: center;
+}
+
+
+.sign .box {
+	background: #1A3C74;
+	color: #fff;
+}
+.digime_logo img {
+width: 145px;
+}
+
+.logolast {
+	text-align: center;
+	margin: auto;
+}
+
+.digi_ know .go {
+	margin: 0 auto;
+}
+
+.digi_ know .go1 {
+	float: right;
+	margin: 0 auto;
+}
+
+.sign p {
+	font-size: 20px;
+	color: #fff;
+}
+
+.boxes1 {
+position: absolute;
+margin: 10px 10px 0;
+width: calc(25% - 220px);
+height: 145px;
+background-color: grey;
+top:765px;
+left:660px;
+}
+
+.backgrnd {
+position:fixed;
+z-index:-1000;
+width: 420px;
+height: 221px;
+overflow: hidden;
+top:0;
+left:0;
+}
+
+.content img {
+position:absolute;
+width: 175px;
+height:175px;
+//padding-top:15%;
+top:35px;
+left:200px;
+}
+
+.contents img {
+position:absolute;
+width: 75px;
+height:65px;
+//padding-top:15%;
+top:105px;
+left: 70px;
+}
+
+.mini img {
+position:absolute;
+width: 95px;
+height:55px;
+//padding-top:15%;
+top:115px;
+left: 150px;
+}
+
+	.flip-container:hover .flipper, .flip-container.hover .flipper {
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 200px;
+height:84.42px;
+}
+
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+
+.front, .back {
+	backface-visibility: hidden;
+
+	position: absolute;
+
+}
+
+
+.front {
+	z-index: 2;
+	/* for firefox 31 */
+	transform: rotateY(0deg);
+        color: #fff;
+        text-align: center;
+}
+
+
+.back {
+	transform: rotateY(180deg);
+        background-color: #EA702A;
+        color: #fff;
+        text-align: center; 
+}
